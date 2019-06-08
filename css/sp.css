@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* スマートフォン用CSS */
+
+.hidden-sp {
+	display:none !important;
+}
+.hidden-pc {
+	display: inherit !important;
+}
+.only-sp {
+	display: inherit !important;
+}
+.only-pc {
+	display: none !important;
+}
+
+html {
+	font-size:1.5vw;
+}
+
+.inner {
+	width:100%;
+}
+
+#header {
+    min-width: auto;
+}
+
+/* section01 ==================================================================== */
+.section01 .inner {
+    background: url("../img/img04_sp.jpg") no-repeat top left;
+    background-size: contain;
+}
+.section01 .main_inner {
+    padding:6.4% 0;
+}
+.section01 .main_inner img {
+    margin:3.2% 8% 0;
+    width:84%;
+}
+.section01 p {
+    padding-left:8%;
+    padding-right:8%;    
+}
+
+/* section02 ==================================================================== */
+.section02 .inner {
+    padding:21.3% 0 11.7%;
+}
+.section02 table {
+    width:90%;
+    margin:3.2% auto 2.13%;
+}
+.section02 table th,
+.section02 table td {
+    font-size:2.4rem;
+    padding:0.3em 1.5em;
+    white-space: nowrap;
+}
+.section02 table th {
+    background-color: #C0D6E3;
+    width:24%;
+}
+.section02 table td {
+    width:38%;
+}
+.section02 p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+
+/* section03 ==================================================================== */
+.section03 {
+    background: url("../img/img07_sp.jpg") no-repeat right top;
+    background-size: cover;
+    min-width: auto;
+}
+.section03 .inner {
+    padding:11.7% 0 8.5%;
+}
+.section03 h3 {
+    font-weight: bold;
+    color:#043180;
+    font-size: 3.2rem;
+    line-height: 1.8;
+    padding:0 8% 2.8em;
+    text-shadow:
+        1px 1px 3px rgba(255,255,255,1),
+        1px -1px 3px rgba(255,255,255,1),
+        -1px 1px 3px rgba(255,255,255,1),
+        -1px -1px 3px rgba(255,255,255,1);
+}
+.section03 p {
+    font-size: 2.4rem;
+    line-height: 2;
+    width:100%;
+    padding-left:8%;
+    padding-right:8%;   
+    text-shadow:
+        1px 1px 3px rgba(255,255,255,1),
+        1px -1px 3px rgba(255,255,255,1),
+        -1px 1px 3px rgba(255,255,255,1),
+        -1px -1px 3px rgba(255,255,255,1);
+}
+.section03 p ~ p {
+    padding-top:1.5em;
+}
+
+/* section04 ==================================================================== */
+.section04 .inner {
+    padding:18.1% 0 14.9%;
+}
+.section04 p {
+    font-size: 2.4rem;
+    margin:9.6% 8% 5.3%;
+}
+
+/* section05 ==================================================================== */
+.section05 {
+    background-color: #F0F0F0;
+    padding:0 0 18.1%;
+}
+.section05 .point {
+    padding:14.9% 0 0;
+}
+.section05 .point1,
+.section05 .point2,
+.section05 .point3,
+.section05 .point4 {
+    background: none;
+}
+.section05 p {
+    font-size: 2.4rem;
+    line-height: 2;
+}
+.section05 p ~ p {
+    padding-top:1.5em;
+}
+.section05 .floatingbox {
+    padding-top:41%;
+}
+.section05 .point1 .floatingbox  {
+    background: url("../img/point1_3_pc.jpg") no-repeat left top;
+    background-size: contain;
+}
+.section05 .point2 .floatingbox  {
+    background: url("../img/point2_3_pc.jpg") no-repeat left top;
+    background-size: contain;
+}
+.section05 .point3 .floatingbox  {
+    background: url("../img/point3_3_pc.jpg") no-repeat left top;
+    background-size: contain;
+}
+.section05 .point4 .floatingbox  {
+    background: url("../img/point4_3_pc.jpg") no-repeat left top;
+    background-size: contain;
+}
+.section05 .floatingbox img.pointimg {   
+    width:33%;
+    margin:0 0 18px 8%;
+}
+.section05 .point2 .floatingbox img.pointimg,
+.section05 .point4 .floatingbox img.pointimg {   
+    margin-left: 8%;
+}
+.section05 .floatingbox_inner {
+    width:84%;
+    margin:0 auto;
+    padding:8.5%;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0 rgba(0,0,0,0.30);
+}
+.section05 .point2 .floatingbox ,
+.section05 .point4 .floatingbox {
+    margin-left:0;
+}
+.section05 .floatingbox_inner img {
+    margin:0 0 6%;
+}
+
+/* section06 ==================================================================== */
+.section06 .inner {
+    padding:22.4% 0 16%;
+}
+.section06 .img11 {
+    margin:12.8% 0 10%;
+}
+.section06 .infobox:first-of-type {
+    margin:12.8% 0 0;
+}
+.section06 .infobox {
+    margin:12.8% 0 0;
+}
+.section06 .infobox h4 {
+    width:86%;
+    margin:0 auto;
+    font-size:2.4rem;
+    line-height: 1.8;
+}
+.section06 .infobox ul {
+    display: inline-block;
+    margin:4.2% 8%;
+}
+.section06 .infobox li,
+.section06 .infobox h5 {
+    font-size:2.8rem;
+    font-weight: bold;
+    color:#043180;
+}
+.section06 .infobox li {
+    text-align: left;
+    font-size: 2rem;
+}
+.section06 .infobox h5 {
+    text-align: center;
+    margin:4.2% 0;
+    padding-left:8%;
+    padding-right:8%;
+}
+.section06 .infobox p {
+    text-align: left;
+    font-size:1.3rem;
+    color:#043180;
+    text-indent: -1em;
+    padding-left:calc(8% + 1em);
+    padding-right:8%;
+}
+.section06 .btn {
+    width:80%;
+    margin:8% auto 0;
+}
+
+

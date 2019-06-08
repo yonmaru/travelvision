@@ -1,0 +1,214 @@
+@charset "UTF-8";
+img {
+    display:block;
+    width:100%;
+}
+.inner {
+	width:960px;
+	margin:0 auto;
+	position:relative;
+}
+
+#header {
+    width:100%;
+    background: url("../img/img01_pc.jpg") no-repeat center center;
+    background-size: cover;
+    min-width: 960px;
+}
+
+/* section01 ==================================================================== */
+.section01 {
+    background-color: #BFD6E3;
+}
+.section01 .obi {
+    background-color: #063282;
+    width:100%;
+}
+.section01 .inner {
+    background: url("../img/img04_pc.jpg") no-repeat top left #BFD6E3;
+}
+.section01 .main_inner {
+    padding:120px 0 96px;
+}
+.section01 .main_inner img {
+    margin:88px 0 0;
+}
+.section01 p {
+    font-size:2.8rem;
+    line-height: 2;
+}
+.section01 p ~ p {
+    padding-top:1.5em;
+}
+.section01 p span {
+    font-weight: bold;
+    background: -webkit-linear-gradient(transparent 60%, #FFFD38 60%);
+    background: -o-linear-gradient(transparent 60%, #FFFD38 60%);
+    background: linear-gradient(transparent 60%, #FFFD38 60%);
+}
+
+/* section02 ==================================================================== */
+.section02 {}
+.section02 .inner {
+    padding:160px 0 96px;
+}
+.section02 table {
+    width:100%;
+    margin:24px 0 16px;
+    border-top: 1px solid #858585;
+    border-left: 1px solid #858585;
+}
+.section02 table th,
+.section02 table td {
+    font-size:2.4rem;
+    text-align: center;
+    border-bottom: 1px solid #858585;
+    border-right: 1px solid #858585;
+    line-height: 2;
+}
+.section02 table th {
+    background-color: #C0D6E3;
+}
+.section02 table td {}
+.section02 p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+/* section03 ==================================================================== */
+.section03 {
+    background: url("../img/img07_pc.jpg") no-repeat center center;
+    background-size: cover;
+    min-width: 960px;
+}
+.section03 .inner {
+    padding:64px 0 72px;
+}
+.section03 h3 {
+    font-weight: bold;
+    color:#043180;
+    font-size: 3.2rem;
+    line-height: 1.8;
+    padding:0 0 0.5em;
+}
+.section03 p {
+    font-size: 2.4rem;
+    line-height: 2;
+    width:62.5%;
+}
+.section03 p ~ p {
+    padding-top:1.5em;
+}
+
+/* section04 ==================================================================== */
+.section04 .inner {
+    padding:168px 0;
+}
+.section04 p {
+    font-size: 2.4rem;
+    line-height: 2;
+    margin:72px 0 32px;
+}
+
+/* section05 ==================================================================== */
+.section05 {
+    background-color: #F0F0F0;
+    padding:0 0 168px;
+}
+.section05 .point {
+    padding:160px 0 0;
+}
+.section05 .point1 {
+    background: url("../img/point1_3_pc.jpg") no-repeat calc(50% + 520px) 160px;
+}
+.section05 .point2 {
+    background: url("../img/point2_3_pc.jpg") no-repeat calc(50% - 520px) 160px;
+}
+.section05 .point3 {
+    background: url("../img/point3_3_pc.jpg") no-repeat calc(50% + 520px) 160px;
+}
+.section05 .point4 {
+    background: url("../img/point4_3_pc.jpg") no-repeat calc(50% - 520px) 160px;
+}
+.section05 p {
+    font-size: 2.4rem;
+    line-height: 2;
+}
+.section05 p ~ p {
+    padding-top:1.5em;
+}
+.section05 .floatingbox img.pointimg {   
+    width:252px;
+    margin:0 0 18px;
+}
+.section05 .point2 .floatingbox img.pointimg,
+.section05 .point4 .floatingbox img.pointimg {   
+    margin-left:398px;
+}
+.section05 .floatingbox_inner {
+    width:650px;
+    padding:64px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0 rgba(0,0,0,0.30);
+}
+.section05 .point2 .floatingbox ,
+.section05 .point4 .floatingbox {
+    margin-left:310px;
+}
+.section05 .floatingbox_inner img {
+    margin:0 0 48px;
+}
+
+/* section06 ==================================================================== */
+.section06 .inner {
+    padding:168px 0 120px;
+}
+.section06 .img11 {
+    margin:110px 0 114px;
+}
+.section06 .infobox:first-of-type {
+    margin:88px 0 0;
+}
+.section06 .infobox {
+    text-align: center;
+    margin:64px 0 0;
+}
+.section06 .infobox h4 {
+    font-weight: bold;
+    color:#043180;
+    background-color: #B2D5E9;
+    width:100%;
+    font-size:2.4rem;
+    line-height: 1.8;
+}
+.section06 .infobox ul {
+    display: inline-block;
+    margin:24px 0 32px;
+}
+.section06 .infobox li,
+.section06 .infobox h5 {
+    font-size:2.8rem;
+    font-weight: bold;
+    color:#043180;
+}
+.section06 .infobox li {
+    text-align: left;
+}
+.section06 .infobox h5 {
+    text-align: center;
+    margin:24px 0 32px;
+}
+.section06 .infobox p {
+    text-align: left;
+    font-size:1.3rem;
+    color:#043180;
+    text-indent: -1em;
+    padding-left:1em;
+}
+.section06 .btn {
+    width:448px;
+    margin:200px auto 0;
+}
+
+
