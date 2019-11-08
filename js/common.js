@@ -8,7 +8,7 @@ $(function() {
   var sp = '_sp.';
   var pc = '_pc.';
   // 画像を切り替えるウィンドウサイズ。
-  var replaceWidth = 641;
+  var replaceWidth = 751;
 
   function imageSwitch() {
     // ウィンドウサイズを取得する。
@@ -17,11 +17,11 @@ $(function() {
     // ページ内にあるすべての`.image-switch`に適応される。
     $elem.each(function() {
       var $this = $(this);
-      // ウィンドウサイズが641px以上であれば_spを_pcに置換する。
+      // ウィンドウサイズが751px以上であれば_spを_pcに置換する。
       if(windowWidth >= replaceWidth) {
         $this.attr('src', $this.attr('src').replace(sp, pc));
 
-      // ウィンドウサイズが641px未満であれば_pcを_spに置換する。
+      // ウィンドウサイズが751px未満であれば_pcを_spに置換する。
       } else {
         $this.attr('src', $this.attr('src').replace(pc, sp));
       }

@@ -232,3 +232,39 @@ html {
 }
 
 
+/* section07 ==================================================================== */
+.section07 .inner {
+    padding:22.4% 0 3%;
+}
+.section07 .infobox {
+    background-color: #E2EBF1;
+    padding:5% 10%;
+    margin:0 8%;
+}
+.section07 p {
+    font-size: 2.4rem;
+    line-height: 2;
+}
+.section07 .text1 {
+    padding: 9.6% 8% 0;
+}
+.section07 .infobox p ~ p {
+    padding-top:1em;
+}
+.youtube-outer {
+    width:100%;
+    margin:0 auto;
+    padding: 7.4% 8% 8.5%;
+}
+.youtube {
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+}
+.youtube iframe{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
